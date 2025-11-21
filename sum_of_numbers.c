@@ -6,3 +6,4 @@ int main ()
     printf("sum = %d\n", c);
     return 0;
 }
+
