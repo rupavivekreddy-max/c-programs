@@ -1,0 +1,16 @@
+#include<stdio.h>
+long int fact(long int);
+int main()
+{ long int n,f;
+printf("Enter any number");
+scanf("%d",&n);
+f=fact(n);
+printf("factorial is = %d",f);
+return 0;
+}
+long int fact(long int n)
+{ if(n==0)
+  return 1;
+  else
+   return(n*fact(n-1));
+}
